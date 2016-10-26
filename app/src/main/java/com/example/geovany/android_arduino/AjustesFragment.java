@@ -18,6 +18,8 @@ public class AjustesFragment extends Fragment{
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         myView = inflater.inflate(R.layout.ajustes_layout, container, false);
+        getActivity().setTitle("Ajustes");
         return myView;
+
     }
 }

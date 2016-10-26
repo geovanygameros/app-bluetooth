@@ -1,13 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:ems="10"
-        android:id="@+id/editText" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:srcCompat="@mipmap/ic_launcher"
+            android:id="@+id/imageButton19"
+            android:layout_weight="2"/>
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:srcCompat="@mipmap/ic_launcher"
+            android:id="@+id/imageButton18"
+            android:layout_weight="2"/>
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:srcCompat="@mipmap/ic_launcher"
+            android:id="@+id/imageButton17"
+            android:layout_weight="2"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:srcCompat="@mipmap/ic_launcher"
+            android:id="@+id/imageButton20"
+            android:layout_weight="2"/>
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:srcCompat="@mipmap/ic_launcher"
+            android:id="@+id/imageButton21"
+            android:layout_weight="2"/>
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:srcCompat="@mipmap/ic_launcher"
+            android:id="@+id/imageButton22"
+            android:layout_weight="2"/>
+    </LinearLayout>
+
 </LinearLayout>

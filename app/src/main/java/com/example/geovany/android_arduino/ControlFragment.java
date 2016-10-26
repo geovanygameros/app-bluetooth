@@ -18,6 +18,7 @@ public class ControlFragment extends Fragment{
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         myView = inflater.inflate(R.layout.control_layout, container, false);
+        getActivity().setTitle("Control");
         return myView;
     }
 }
