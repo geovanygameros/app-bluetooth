@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity
         navigationView.setNavigationItemSelectedListener(this);
 
         fragmentManager.beginTransaction()
-                .replace(R.id.content_main ,new ControlFragment()).commit();
+                .replace(R.id.content_main ,new AjustesFragment()).commit();
     }
 
     @Override
